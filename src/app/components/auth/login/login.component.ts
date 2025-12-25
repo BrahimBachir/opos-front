@@ -49,8 +49,8 @@ export class AppLoginComponent  implements OnInit  {
   }
 
   form = new FormGroup({
-    uname: new FormControl(environment.test_user, [Validators.required, Validators.minLength(6)]),
-    password: new FormControl(environment.test_pass, [Validators.required]),
+    uname: new FormControl('', [Validators.required, Validators.minLength(6)]),
+    password: new FormControl('', [Validators.required]),
   });
 
   get f() {

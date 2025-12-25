@@ -1,5 +1,5 @@
 {
-  "name": "@kaptya/scire-front",
+  "name": "scire-front",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -15,9 +15,9 @@
     "@amcharts/amcharts5": "^5.13.3",
     "@amcharts/amcharts5-geodata": "^5.1.4",
     "@angular/animations": "^20.0.5",
-    "@angular/cdk": "^20.0.4",
+    "@angular/cdk": "^20.2.14",
     "@angular/common": "^20.0.5",
-    "@angular/compiler": "^20.0.5",
+    "@angular/compiler": "^20.0.4",
     "@angular/core": "^20.0.5",
     "@angular/forms": "^20.0.5",
     "@angular/material": "^20.0.4",
@@ -61,7 +61,7 @@
   "devDependencies": {
     "@angular/build": "^20.0.4",
     "@angular/cli": "~20.0.4",
-    "@angular/compiler-cli": "^20.0.5",
+    "@angular/compiler-cli": "^20.0.4",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^10.0.1",
